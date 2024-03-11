@@ -1,0 +1,31 @@
+.card {
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.10);
+    }
+
+    .card-body {
+        padding: 20px;
+
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+
+        .card-subtitle {
+            font-size: 1rem;
+            color: #6c757d;
+        }
+
+        .card-nationality {
+            font-size: 0.875rem;
+            color: #495057;
+        }
+    }
+
+
+}
